@@ -1,0 +1,163 @@
+.bg {
+  background:
+  linear-gradient(135deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
+  linear-gradient(225deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
+  background-color:#708090;
+  background-size: 64px 128px;
+}
+
+.navstyles {
+  background-color: #3b444a;
+}
+
+.navbar-align {
+  margin-left: auto;
+}
+
+.navbar-title {
+  margin-left: 20px;
+}
+
+.navbar-font {
+  font-family: 'Trebuchet MS', sans-serif;
+  margin-right: 10px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.photo-table {
+  margin-left: 40px;
+  margin-top: auto;
+}
+
+.table-whole {
+  width: 100%;
+}
+
+.vl {
+  border-left: 3px solid gray;
+  height: 500px;
+  margin-right: 50px;
+}
+
+.custom-width {
+  margin-left: 50px;
+  margin-right: 80px;
+}
+
+.custom-width2 {
+  margin-left: 0px;
+  margin-right: 80px;
+}
+
+.custom-widthR {
+  margin-left: 150px;
+  margin-right: 40px;
+}
+
+.custom-widthRs {
+  margin-left: 280px;
+  margin-right: 40px;
+}
+
+name {
+  margin-top: 170px;
+  color: #3b444a;
+  font-size: 50px;
+  margin-left: 0px;
+  -webkit-animation: fadein2 1s;
+  /* font-family: Gill Sans, Helvetica, sans-serif; */
+}
+
+name2 {
+  margin-top: 170px;
+  color: #dee5ea;
+  font-size: 70px;
+  margin-left: 0px;
+  -webkit-animation: fadein2 1s;
+  /* font-family: Gill Sans, Helvetica, sans-serif; */
+}
+
+name3 {
+  margin-top: 170px;
+  color: #3b444a;
+  font-size: 50px;
+  -webkit-animation: fadein2 1s;
+  /* font-family: Gill Sans, Helvetica, sans-serif; */
+}
+
+
+p {
+  color: #000000;
+  /* font-family: Gill Sans, Helvetica, sans-serif; */
+}
+
+img {
+  border-radius: 5%;
+  margin: auto;
+  box-shadow: 0 0 0 5px #0;
+}
+
+#rcorners1 {
+  border-radius: 25px;
+  background: white;
+  padding: 80px;
+  width: 1200px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+
+}
+
+#rcorners2 {
+  border-radius: 25px;
+  background: #3b444a;
+  padding: 40px;
+  width: 1200px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-animation: fadein2 1s;
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein2 {
+    from {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+
+    to   { opacity: 1; }
+}
+
+.contact-me {
+  background-color: #EFF5F5;
+  height: 240px;
+}
+
+.contact-inner {
+  margin: auto;
+}
+
+.table-row {
+  height: 100px;
+}
+
+.contact-title {
+  padding: 50px 0 0 50px;
+  color: #274345;
+}
+
+.contact-button {
+  margin: 0 30px;
+}
